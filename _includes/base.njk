@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta property="description" content="{{ description }}"/>
+
+    <meta property="og:title" content="{{ title }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2015/03/26/09/43/building-690177_960_720.jpg"/>
+    <meta property="og:description" content="{{ description }}"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">     
+    
+    <style>
+        :root {
+            --bg-color: #033;
+            --text-color: #EEE;
+            --link-color: #EEE;
+            --secondary-color: #CCC;
+        }
+
+        html {
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier Prime', monospace;
+            font-size: 105%;
+            line-height: 1.5;
+            padding: 2rem;
+            font-variant-ligatures: none;
+        }
+
+        @media screen and (min-width: 1024px) {
+            html {
+                font-size: 130%;
+            }
+        }
+
+        body {
+            max-width: 35rem;
+            margin: auto;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        main {
+            margin: 5em 0;
+        }
+
+        header,
+        footer {
+            color: var(--secondary-color);
+            font-size: .9rem;
+        }
+
+        footer {
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        a {
+            color: var(--link-color);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        reforme.ch
+    </header>
+
+    <main>
+        <article>
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </article>
+    </main>
+
+    <footer>
+        <p>site: 11ty | hébergement: netlify</p>
+    </footer>
+
+</body>
+
+</html>

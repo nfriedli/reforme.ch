@@ -1,0 +1,24 @@
+{
+  "name": "reforme.ch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfriedli/reforme.ch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfriedli/reforme.ch/issues"
+  },
+  "homepage": "https://github.com/nfriedli/reforme.ch#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "html-minifier": "^4.0.0"
+  }
+}
