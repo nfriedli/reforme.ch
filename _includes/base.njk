@@ -13,8 +13,6 @@
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2015/03/26/09/43/building-690177_960_720.jpg"/>
     <meta property="og:description" content="{{ description }}"/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">     
-    
     <style>
         :root {
             --bg-color: #033;
@@ -26,12 +24,14 @@
         html {
             background: var(--bg-color);
             color: var(--text-color);
-            font-family: 'Courier Prime', monospace;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 105%;
             line-height: 1.5;
             padding: 2rem;
             font-variant-ligatures: none;
-        }
+            text-rendering: optimizeSpeed;
+            hyphens: auto;
+            }
 
         @media screen and (min-width: 1024px) {
             html {
