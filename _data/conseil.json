@@ -1,0 +1,27 @@
+[
+    {
+        "nom": "Réseau protestant",
+        "url": "https://reseau-protestant.ch/",
+        "description": "Sites réformés romands en réseau"
+    },
+    {  
+        "nom": "Diane Friedli",
+        "url": "https://dianefriedli.ch/",
+        "description": "pasteure à Auvernier et Colombier"
+    },
+    {  
+        "nom": "Laure Devaux Allisson",
+        "url": "https://lauredevaux.ch/",
+        "description": "Femme au foyer"
+    },
+    {  
+        "nom": "réformé & connecté",
+        "url": "https://jeanmarcleresche.ch/",
+        "description": "Le blog de Jean-Marc Leresche"
+    },
+    {  
+        "nom": "Théologiquement Vôtre",
+        "url": "https://philippegolaz.ch/",
+        "description": "Le blog de Philippe Golaz"
+    }
+]
