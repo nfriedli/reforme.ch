@@ -15,7 +15,7 @@ J’avais des idées pour en parler, mais le cœur n’y est plus.
 **En conséquence, j’offre ce nom de domaine à qui proposera un beau projet protestant ou réformé.**
 À défaut, il sera remis en vente en octobre 2020.
 
-Envoyez votre proposition à [nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch "Contacter Nicolas Friedli")!
+Envoyez votre proposition jusqu'au 30 juin 2020 à [nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch "Contacter Nicolas Friedli")!
 
 
 Quelques sites pour continuer votre navigation (choisis et triés au hasard):
