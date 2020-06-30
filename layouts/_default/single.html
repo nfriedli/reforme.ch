@@ -7,6 +7,9 @@
     {{ range (.GetTerms "tags") }}
         <div class="tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
    {{ end }}
+   {{ range (.GetTerms "cantons") }}
+   <div class="tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+{{ end }}
 </div>
 
 <a class=url href="{{ .Params.Site }}" target="_blank">{{ .Params.Site }}</a>

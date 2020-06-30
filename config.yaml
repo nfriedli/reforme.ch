@@ -15,11 +15,11 @@ params:
   footer: Sources sur [GitHub](https://github.com/nfriedli/reforme.ch)
 
 related:
-  threshold: 50
-  includeNewer: false
-  toLower: false
+  threshold: 80
+  includeNewer: true
+  toLower: true
   indices:
   - name: tags
     weight: 50
   - name: cantons
-    weight: 25
+    weight: 80

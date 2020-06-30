@@ -7,10 +7,11 @@
         {{ range .Site.Taxonomies.tags }}
                 <div class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
         {{ end }}
+
+    {{ range .Site.Taxonomies.cantons }}
+            <div class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+    {{ end }}
 </div>
-
-<a class=site href="{{ .Params.Site }}">{{ .Params.Site }}</a>
-
 
 {{ .Content }}
 {{ end }}
