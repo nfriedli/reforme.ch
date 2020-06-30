@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Params.description }}
+
+<div class="tags">
+    {{ range (.GetTerms "tags") }}
+        <div class="tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+   {{ end }}
+</div>
+
+<a class=url href="{{ .Params.Site }}" target="_blank">{{ .Params.Site }}</a>
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<p>Ces sites pourraient aussi vous intéresser:</p>
+<div class="sites">
+	{{ range . }}
+    <div class="site">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ .Params.description }} </div>
+	{{ end }}
+</div>
+{{ end }}
+
+{{ .Content }}
+{{ end }}

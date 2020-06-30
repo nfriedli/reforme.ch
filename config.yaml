@@ -1,0 +1,25 @@
+baseURL: https://reforme.ch/
+languageCode: fr
+title: reforme.ch
+
+taxonomies:
+  tag: tags
+  cantons: cantons
+
+RemovePathAccents: true
+
+disableKinds:
+  - RSS
+
+params:
+  footer: Sources sur [GitHub](https://github.com/nfriedli/reforme.ch)
+
+related:
+  threshold: 50
+  includeNewer: false
+  toLower: false
+  indices:
+  - name: tags
+    weight: 50
+  - name: cantons
+    weight: 25
