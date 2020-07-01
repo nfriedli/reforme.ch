@@ -10,3 +10,6 @@
 
 /fonts/*
     Cache-Control: max-age=63072000
+
+/favicon.png
+    Cache-Control: max-age=63072000

@@ -40,6 +40,6 @@ related:
   - name: tags
     weight: 50
   - name: cantons
-    weight: 90
+    weight: 60
   - name: keywords
     weight: 100
