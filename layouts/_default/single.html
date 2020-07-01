@@ -12,7 +12,7 @@
 {{ end }}
 </div>
 
-<a class=url href="{{ .Params.Site }}" target="_blank">{{ .Params.Site }}</a>
+<a class=url href="{{ .Params.Site }}" rel="noopener noreferrer" target="_blank">{{ .Params.Site }}</a>
 
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
