@@ -22,7 +22,7 @@ author:
 
 params:
   footer: |
-    auteur: [Nicolas Friedli](https://theologique.ch/) / moteur: [Hugo](https://gohugo.io/) / sources: [GitHub](https://github.com/nfriedli/reforme.ch) / couleurs: [Max Böck](https://mxb.dev/blog/color-theme-switcher/)  
+    auteur: [Nicolas Friedli](https://theologique.ch/) / moteur: [Hugo](https://gohugo.io/) / sources: [GitHub](https://github.com/nfriedli/reforme.ch) / hébergement: [Netlify](https://www.netlify.com/) / couleurs: [Max Böck](https://mxb.dev/blog/color-theme-switcher/)  
   title: reforme.ch
   description: Le protestantisme réformé de Suisse romande en réseau
   images:
