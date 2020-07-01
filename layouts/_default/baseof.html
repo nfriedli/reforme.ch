@@ -4,26 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&display=swap" rel="stylesheet"> 
+    {{ with .Description }}
+    <meta name="description" content="{{ . }}" />
+    {{ end }}
     <style>
+    @font-face {
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/fonts/alegreya-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('/fonts/alegreya-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        font-display: swap;
+}
+
+    @font-face {
+        font-family: 'Alegreya';
+        font-style: normal;
+        font-weight: 900;
+        src: url('/fonts/alegreya-v13-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('/fonts/alegreya-v13-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        font-display: swap;
+}
+
         :root {
-            --bg-color: darkolivegreen;
-            --medium: darkkhaki;
-            --light: khaki;
-            --black: #333;
-            --white: white;
+            --primary: #f3ab87;
+            --secondary: #e78fb3;
+            --text: #fffffe;
+            --border: #271c19;
+            --background: #55423d;;
+            --primaryOffset: #ffc0ad;
+            --textOffset: #ffc0ad;
+            --backgroundOffset: #41312E;
         }
 
         html {
-            font-family: 'Alegreya', serif;
-            font-family: 'Inconsolata', monospace;
+            font-family: 'Alegreya', Georgia, serif;
             font-size: 100%;
-            color: white;
-            background: var(--bg-color);
+            color: var(--text);
+            background: var(--background);
             margin: 0;
             padding: 1rem;
             text-align: center;
+            font-display: swap;
         }
 
         @media screen and (min-width: 800px) {
@@ -33,12 +55,17 @@
             }
         }
 
+        main {
+            margin: 4rem 0;
+        }
+
         h1, h2 {
             font-weight: 900;
             color: var(--light);
         }
 
         h1 {
+            color: var(--secondary);
             font-size: 2.5rem
         }
 
@@ -47,17 +74,23 @@
         }
 
         a {
-            color: var(--white);
+            color: var(--text);
+            font-weight: initial;
+        }
+
+        .sites a, .tags a {
+            color: var(--background);
             font-weight: 900;
             word-wrap: break-word;
         }
 
         a.url {
-            color: var(--light);
+            color: var(--secondary);
             display: block;
             font-size: 1.5rem;
+            font-weight: 900;
             margin: 2rem 0;
-            text-decoration-color: var(--medium);
+            text-decoration-color: var(--textOffset);
         }
 
         div.tags {
@@ -66,33 +99,36 @@
 
         div.sites, div.tags {
             display: flex;
-            gap: 1rem;
             flex-wrap: wrap;
             justify-content:center;
         }
 
         div.site, div.tag {
-            color: var(--black);
-            padding: 1rem;
-            flex-basis: 12rem;
-            flex-grow: 0;
-            flex-shrink: .2;
+            color: var(--background);
+            margin: .5rem;
             border-radius: .2rem;
-            border: 3px solid var(--medium);
-            background: var(--light);
+            border: 3px solid var(--primary);
+            background: var(--primaryOffset);
         }
 
-        .site a, .tag a {
-            color: #333;
+        div.site {
+            flex-basis: 10rem;
+            flex-grow: 0;
+            flex-shrink: 1;
+            padding: 1rem;
+        }
+
+        div.tag {
+            flex-basis: 5rem;
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding: .5rem;
         }
 
         footer {
-            margin-top: 4rem;
+            font-size: .9rem;
         }
 
-        footer a {
-            font-weight: initial;
-        }
     </style>
 </head>
 <body>

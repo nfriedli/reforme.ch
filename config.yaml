@@ -11,15 +11,21 @@ RemovePathAccents: true
 disableKinds:
   - RSS
 
+minify:
+  minifyOutput: true
+
 params:
-  footer: Sources sur [GitHub](https://github.com/nfriedli/reforme.ch)
+  footer: |
+    auteur: [Nicolas Friedli](https://theologique.ch/) / moteur: [Hugo](https://gohugo.io/) / sources: [GitHub](https://github.com/nfriedli/reforme.ch) / couleurs: [Max Böck](https://mxb.dev/blog/color-theme-switcher/)  
 
 related:
-  threshold: 80
+  threshold: 50
   includeNewer: true
   toLower: true
   indices:
   - name: tags
     weight: 50
   - name: cantons
-    weight: 80
+    weight: 90
+  - name: keywords
+    weight: 100

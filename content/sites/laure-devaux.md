@@ -5,7 +5,6 @@ description: Laure Devaux Allisson est pasteure dans les cantons de Berne et de 
 tags:
     - blog
     - catéchèse
-    - pasteur·e
 cantons:
     - Berne
     - Neuchâtel

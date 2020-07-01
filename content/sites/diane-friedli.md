@@ -5,7 +5,7 @@ description: Diane Friedli est pasteure à Auvernier et Colombier
 tags:
     - blog
     - catéchèse
-    - pasteur·e
+    - prédication
 cantons:
     - Neuchâtel
 ---

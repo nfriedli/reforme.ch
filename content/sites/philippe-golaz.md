@@ -4,7 +4,7 @@ site: https://philippegolaz.ch
 description: Philippe Golaz est pasteur à Meyrin
 tags:
     - blog
-    - pasteur·e
+    - prédication
 cantons:
     - Genève
 ---
