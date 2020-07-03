@@ -7,4 +7,6 @@ tags:
     - diaconie
 cantons:
     - Berne
+avis:
+    - Des réflexions permanentes sur les diacres, le diaconat et la diaconie. Avec des retours sans concessions sur la pratique paroissiale.
 ---

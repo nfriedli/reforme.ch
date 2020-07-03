@@ -103,13 +103,13 @@
             margin: 2rem 0; 
         }
 
-        div.sites, div.tags {
+        div.sites, div.tags, div.aviss {
             display: flex;
             flex-wrap: wrap;
             justify-content:center;
         }
 
-        div.site, div.tag {
+        div.site, div.tag, div.avis {
             color: var(--background);
             margin: .5rem;
             border-radius: .2rem;
@@ -127,6 +127,13 @@
         div.tag {
             flex-basis: 5rem;
             flex-grow: 0;
+            flex-shrink: 0;
+            padding: .5rem;
+        }
+
+        div.avis {
+            flex-basis: 15rem;
+            flex-grow: 1;
             flex-shrink: 0;
             padding: .5rem;
         }

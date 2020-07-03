@@ -7,4 +7,6 @@ tags:
     - spiritualité
 cantons: 
     - Vaud
+keywords:
+    - Cèdres
 ---

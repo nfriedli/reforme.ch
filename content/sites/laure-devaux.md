@@ -8,4 +8,6 @@ tags:
 cantons:
     - Berne
     - Neuchâtel
+avis:
+    - Grande variation de formes et de ton. Textes, audio et vidéo sont au programme. Une certaine légèreté mais toujours des réflexions théologiques de fond.
 ---

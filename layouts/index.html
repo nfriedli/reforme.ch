@@ -9,11 +9,11 @@
 
 <div class="tags">
         {{ range .Site.Taxonomies.tags }}
-                <div class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+                <div class="tag" rel="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
         {{ end }}
 
     {{ range .Site.Taxonomies.cantons }}
-            <div class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+            <div class="tag" rel="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
     {{ end }}
 </div>
 

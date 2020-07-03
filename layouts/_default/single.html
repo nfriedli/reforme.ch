@@ -5,12 +5,25 @@
 
 <div class="tags">
     {{ range (.GetTerms "tags") }}
-        <div class="tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+        <div class="tag"><a href="{{ .Permalink }}" rel="tag">{{ .LinkTitle }}</a></div>
    {{ end }}
    {{ range (.GetTerms "cantons") }}
-   <div class="tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+   <div class="tag"><a href="{{ .Permalink }}" rel="tag">{{ .LinkTitle }}</a></div>
 {{ end }}
 </div>
+
+{{ if .Params.avis}}
+    <p>Avis d'internautes (envoyez le vôtre à nicolasfriedli@protonmail.ch):</p>
+    <div class="aviss">    
+        {{ range .Params.avis | shuffle }}
+        <div class="avis">
+            {{ . }}
+        </div>
+        {{ end }}
+    </div>
+{{ else }}
+    <p>Pas encore d'avis pour ce site. Le vôtre est bienvenu. Envoyez-le à nicolasfriedli@protonmail.ch.</p>
+{{ end }}
 
 <a class=url href="{{ .Params.Site }}" rel="noopener noreferrer" target="_blank">{{ .Params.Site }}</a>
 

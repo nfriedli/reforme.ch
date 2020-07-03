@@ -9,4 +9,6 @@ cantons:
     - Genève
 keywords:
     - Pernot
+avis:
+    - Des nouveaux contenu presque tous les jours. Fascinant de voir les questions réelles que nos contemporains se posent. Et toujours enchanté de la bienveillance de Marc Pernot.
 ---
