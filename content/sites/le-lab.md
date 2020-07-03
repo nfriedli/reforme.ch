@@ -6,4 +6,6 @@ tags:
     - spiritualité
 cantons: 
     - Genève
+keywords:
+    - Costa
 ---

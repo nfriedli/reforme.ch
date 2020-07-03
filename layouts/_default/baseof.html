@@ -146,7 +146,11 @@
      {{ end }}
     </main>
     <footer>
-        {{ .Site.Params.footer | markdownify }}
+        {{ if .IsHome}}
+        {{ .Site.Params.FooterHome | markdownify }}
+        {{ else }}
+        {{ .Site.Params.Footer | markdownify }}
+        {{ end }}
     </footer>
     
 </body>
