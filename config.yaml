@@ -8,6 +8,8 @@ taxonomies:
 
 RemovePathAccents: true
 
+googleAnalytics: UA-162767126-4
+
 disableKinds:
   - RSS
   - robotsTXT
