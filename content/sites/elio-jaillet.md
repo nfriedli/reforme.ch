@@ -7,5 +7,7 @@ tags:
     - université
 cantons:
     - Vaud
+avis:
+    - Un billet chaque lundi, j'aime beaucoup ce rythme. Bonne diversité entre des sujets universitaires et l'engagement en paroisse.
 ---
 

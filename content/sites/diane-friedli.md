@@ -8,4 +8,6 @@ tags:
     - prédication
 cantons:
     - Neuchâtel
+avis:
+    - Des prédications soignées et en lien avec les réalités de notre époque. J'apprécie l'écoute des enregistrements lorsque je repasse ou je cuisine.
 ---

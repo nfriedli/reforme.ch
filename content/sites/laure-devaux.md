@@ -10,4 +10,5 @@ cantons:
     - Neuchâtel
 avis:
     - Grande variation de formes et de ton. Textes, audio et vidéo sont au programme. Une certaine légèreté mais toujours des réflexions théologiques de fond.
+    - Sans chichi. C'est drôle et bien amené, et cela fait réfléchir.
 ---

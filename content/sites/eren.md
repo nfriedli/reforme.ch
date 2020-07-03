@@ -6,4 +6,6 @@ tags:
     - Église
 cantons:
     - Neuchâtel
+avis:
+    - Agréable à lire pour un site insitutionnel. Des nouveautés sont publiées régulièrement.
 ---
