@@ -1,0 +1,15 @@
+{
+    "baseUrl": "",
+    "name": "{url}",
+    "type": "jpg",
+    "urls": [
+        "https://dianefriedli.ch",
+        "https://lauredevaux.ch"
+    ],
+    "sizes": [
+        "1280x800"
+    ],
+    "fit": "true",
+    "dir": "static/images/",
+    "quality": "85"
+}

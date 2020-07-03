@@ -1,9 +1,11 @@
 ---
 title: SVTH
 site: https://svth.ch/
-description: Société vaudoise de théologie
+description: La Société vaudoise de théologie est une organisation para-académique qui vise à promouvoir la théologie, au service des Églises et de la société. 
 tags: 
     - formation
+    - réflexion
+    - université
 cantons:
     - Vaud
 ---
