@@ -18,7 +18,7 @@ Le site reforme.ch n'est pas un concurrent du Réseau protestant, mais une expé
 
 ## Participer à reforme.ch
 
-Il existe 2 manières d'apporter votre soutient à reforme.ch:
+Il existe 2 manières d'apporter votre soutien à reforme.ch:
 
 - [ajouter un site](https://forms.gle/81etzY215AADgKuy7) (le vôtre ou un autre site)
 - donner votre avis sur un site en ligne par mail à l'auteur (voir ci-dessous)
@@ -37,6 +37,15 @@ Tester Hugo
 
 Tester le référencement
 : La structure du site me permet de tester des choix de structure et de maillage internet dans la vie réelle. La manière dont le site s'inscrit dans les moteurs de recherche permet d'infirmer ou de confirmer des stratégies.
+
+Je cherche à comprendre la structure du réseau protestant réformé de Suisse romande et à rendre cette structure navigable. Pour cela, j'utilise 3 taxonomies pour ce site:
+
+- des thématiques (tags)
+- la géographie (cantons)
+- des mots-clés internes invisibles (keyowrds)
+
+Ces 3 taxonomies sont pondérées pour (essayer de) proposer des liens utiles vers d'autres sites. 
+Tout cela reste expérimental.
 
 ## Contact
 
