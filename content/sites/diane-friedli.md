@@ -2,6 +2,8 @@
 title: Diane Friedli
 site: https://dianefriedli.ch
 description: Diane Friedli est pasteure à Auvernier et Colombier
+images: 
+    - /images/dianefriedli-ch.jpg
 tags:
     - blog
     - catéchèse

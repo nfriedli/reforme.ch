@@ -6,6 +6,13 @@
 <div class="sites">
 {{ range .Pages }}
     <div class="site">
+        <!-- {{ range .Params.images }}
+        {{ $path := . }}
+        {{ $original := resources.Get $path }}
+        {{ $image := $original.Fit "300x600" }}
+        <img src="{{ $image.Permalink }}">
+        {{ $image.Width }}
+        {{ end }} -->
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ .Params.description }}
     </div>
