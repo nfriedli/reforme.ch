@@ -1,5 +1,6 @@
 baseURL: https://reforme.ch/
 languageCode: fr
+defaultContentLanguage: fr
 title: reforme.ch
 
 taxonomies:
@@ -26,9 +27,7 @@ author:
 
 params:
   footer: |
-    [Ajouter un site](https://forms.gle/81etzY215AADgKuy7)
-  footerHome: |
-      auteur: [Nicolas Friedli](https://theologique.ch/) / moteur: [Hugo](https://gohugo.io/) / sources: [GitHub](https://github.com/nfriedli/reforme.ch) / hébergement: [Netlify](https://www.netlify.com/) / couleurs: [Max Böck](https://mxb.dev/blog/color-theme-switcher/)  
+    [À propos de ce site](/about/)
   title: reforme.ch
   description: Le protestantisme réformé de Suisse romande en réseau
   images:
