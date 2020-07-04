@@ -25,6 +25,11 @@ author:
   name: Nicolas Friedli
   email: nicolasfriedli@protonmail.ch
 
+markup:
+  highlight:
+    codeFences: true
+    style: dracula
+
 params:
   footer: |
     [À propos de ce site](/about/)

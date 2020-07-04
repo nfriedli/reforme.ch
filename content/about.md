@@ -25,6 +25,19 @@ Il existe 2 manières d'apporter votre soutien à reforme.ch:
 
 Votre soutien est important pour permettre à reforme.ch d'être le plus crédible possible.
 
+## Contact
+
+Nicolas Friedli  
+Rue du Château 3  
+2013 Colombier  
+Suisse  
+
+[nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch "Email privé de Nicolas Friedli")  
+[+41 79 344 33 82](tel:+41793443382 "Numéro de portable de Nicolas Friedli") (pour vos SMS et vos dons par Twint)    
+[+41 32 841 48 74](tel:+41328414874 "Numéro de téléphone fixe de Nicolas Friedli") (en cas d’urgence)
+
+Merci pour vos propositions de nouveaux site ou vos retours sur les sites présents!
+
 ## Le projet reforme.ch
 
 Il y a plusieurs idées derrière ce projet:
@@ -46,16 +59,3 @@ Je cherche à comprendre la structure du réseau protestant réformé de Suisse 
 
 Ces 3 taxonomies sont pondérées pour (essayer de) proposer des liens utiles vers d'autres sites. 
 Tout cela reste expérimental.
-
-## Contact
-
-Nicolas Friedli  
-Rue du Château 3  
-2013 Colombier  
-Suisse  
-
-[nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch "Email privé de Nicolas Friedli")  
-[+41 79 344 33 82](tel:+41793443382 "Numéro de portable de Nicolas Friedli") (pour vos SMS et vos dons par Twint)    
-[+41 32 841 48 74](tel:+41328414874 "Numéro de téléphone fixe de Nicolas Friedli") (en cas d’urgence)
-
-Merci pour vos propositions de nouveaux site ou vos retours sur les sites présents!
