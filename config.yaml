@@ -14,7 +14,6 @@ RemovePathAccents: true
 googleAnalytics: UA-162767126-4
 
 disableKinds:
-  - RSS
   - robotsTXT
   - 404
 
@@ -32,7 +31,8 @@ markup:
 
 params:
   footer: |
-    [À propos de ce site](/about/)
+    [À propos de ce site](/about/)  
+    [Flux RSS](/feeds/)
   title: reforme.ch
   description: Le protestantisme réformé de Suisse romande en réseau
   images:
