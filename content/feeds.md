@@ -12,9 +12,9 @@ Voire créer un fichier OPML qui permet de s'y abonner en un clic.
 
 Vous pouvez vous abonner aux flux concernant:
 
-- **[l'ensemble du site](/index.xml "Flux RSS de reforme.ch")**
 - [les sites publiés ou modifiés](/sites/index.xml "Flux RSS des sites publiés ou modifiés chez reforme.ch")
-- un tag précis, par exemple: [Neuchâtel](https://reforme.ch/cantons/neuchatel/index.xml "Flux RSS du canton de Neuchâtel")
-- un canton précis, par exemple: [formation](https://reforme.ch/tags/formation/index.xml "Flux RSS spécifique à la formation")
+- un tag précis, par exemple: [formation](https://reforme.ch/tags/formation/index.xml "Flux RSS spécifique à la formation")
+- un canton précis, par exemple: [Neuchâtel](https://reforme.ch/cantons/neuchatel/index.xml "Flux RSS du canton de Neuchâtel")
+- [**l'ensemble du site**](/index.xml "Flux RSS de reforme.ch")
 
 Pour les tags et les cantons, il suffit d'ajouter `index.xml` à l'URL qui vous intéresse.
