@@ -13,7 +13,7 @@
 </div>
 
 {{ if .Params.avis}}
-    <p>Avis d'internautes (envoyez le vôtre à nicolasfriedli@protonmail.ch):</p>
+    <p>Avis d'internautes:</p>
     <div class="aviss">    
         {{ range .Params.avis | shuffle }}
         <div class="avis">
@@ -22,7 +22,7 @@
         {{ end }}
     </div>
 {{ else }}
-    <p>Pas encore d'avis pour ce site. Le vôtre est bienvenu. Envoyez-le à nicolasfriedli@protonmail.ch.</p>
+    <p>Pas encore d'avis pour ce site. Le vôtre est bienvenu.</p>
 {{ end }}
 
 <a class=url href="{{ .Params.Site }}" rel="noopener noreferrer" target="_blank">{{ .Params.Site }}</a>
@@ -38,6 +38,8 @@
 	{{ end }}
 </div>
 {{ end }}
+
+{{ template "_internal/disqus.html" . }}
 
 {{ .Content }}
 {{ end }}

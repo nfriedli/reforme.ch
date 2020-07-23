@@ -13,6 +13,8 @@ RemovePathAccents: true
 
 googleAnalytics: UA-162767126-4
 
+disqusShortname: reforme-ch
+
 disableKinds:
   - robotsTXT
   - 404
