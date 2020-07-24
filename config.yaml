@@ -3,17 +3,11 @@ languageCode: fr
 defaultContentLanguage: fr
 title: reforme.ch
 
-taxonomies:
-  tag: tags
-  cantons: cantons
-
 enableGitInfo: true
 
 RemovePathAccents: true
 
 googleAnalytics: UA-162767126-4
-
-disqusShortname: reforme-ch
 
 disableKinds:
   - robotsTXT
@@ -33,21 +27,8 @@ markup:
 
 params:
   footer: |
-    [À propos de ce site](/about/)  
-    [Flux RSS](/feeds/)
+    Un blog par Nicolas Friedli
   title: reforme.ch
-  description: Le protestantisme réformé de Suisse romande en réseau
+  description: Suite et fin des affaires courantes
   images:
     - https://cdn.pixabay.com/photo/2016/06/11/23/22/soap-bubbles-1451092_1280.jpg
-
-related:
-  threshold: 50
-  includeNewer: true
-  toLower: true
-  indices:
-  - name: tags
-    weight: 50
-  - name: cantons
-    weight: 60
-  - name: keywords
-    weight: 100

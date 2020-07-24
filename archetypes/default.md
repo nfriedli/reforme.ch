@@ -1,10 +1,8 @@
 ---
 title: 
-site: 
+date: 
 description: 
 tags:
-    - 
-cantons: 
     - 
 ---
 
