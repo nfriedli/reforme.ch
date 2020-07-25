@@ -1,4 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+<div class="meta">&mdash; <time>{{ .Date.Format "02.01.2006" }} / Nicolas Friedli</time></div>
 {{ end }}

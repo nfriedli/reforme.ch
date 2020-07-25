@@ -12,6 +12,9 @@ googleAnalytics: UA-162767126-4
 disableKinds:
   - robotsTXT
   - 404
+  - taxonomy
+  - term
+
 
 minify:
   minifyOutput: true
@@ -27,8 +30,9 @@ markup:
 
 params:
   footer: |
-    Un blog par Nicolas Friedli
+    Question ou remarque? [Contactez-moi par mail](mailto:nicolasfriedli@protonmail.ch).  
+    Ce site est publié sous licence Creative Commons by.
   title: reforme.ch
-  description: Suite et fin des affaires courantes
+  description: suite et fin des affaires courantes
   images:
-    - https://cdn.pixabay.com/photo/2016/06/11/23/22/soap-bubbles-1451092_1280.jpg
+    - https://cdn.pixabay.com/photo/2017/12/07/18/30/abandoned-building-3004317_1280.jpg

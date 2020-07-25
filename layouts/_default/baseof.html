@@ -14,10 +14,54 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <link rel="icon" type="image/png" href="/favicon.png">
     {{ template "_internal/google_analytics.html" . }}
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <style>
+        html {
+            background: #FFF;
+            color: #333;
+            font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+            font-size: 112.5%;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 2rem;
+        }
+
+        header {
+            text-transform: uppercase;
+        }
+
+        main {
+            max-width: 35rem;
+            margin: 4rem 0;
+        }
+
+        h1, h2, h3 {
+            font-style: italic;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.44rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <a href="/">reforme.ch</a>
+        <a rel="home" href="/">{{ .Site.Title }}</a> &bull;
+        {{ .Site.Params.description }}
     </header>
     <main>
      {{ block "main" . }}    
