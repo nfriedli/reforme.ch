@@ -2,6 +2,8 @@
 title: 80 jours pour 40 billets
 description: Il est temps de sortir du temps des slogans et des complicités coupables.
 date: 2020-07-25
+images:
+    - https://cdn.pixabay.com/photo/2012/10/10/05/04/locomotive-60539_1280.jpg
 ---
 
 Il reste au nom de domaine reforme.ch un peu plus de 80 jours d'existence.
@@ -18,6 +20,6 @@ Aucun plan de publication, aucun texte rédigé.
 Je me vois mal ne pas tenir de blog réformé, alors que je dis régulièrement que [les pasteur.e.s et diacres doivent lancer leur blog personnel](https://theologique.ch/blog/).
 Certes je ne suis pas ministre, mais ce n'est pas une excuse suffisante pour se défiler.
 
-Il est temps de sortir du temps des slogans et des complicités coupables.
+Il est temps de sortir de l'époque des slogans et des complicités coupables.
 **Aucune excuse n'est suffisante pour se défiler.**
 Ce sera le fil rouge de ce blog.
