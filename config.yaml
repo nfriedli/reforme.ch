@@ -29,9 +29,6 @@ markup:
     style: dracula
 
 params:
-  footer: |
-    Question ou remarque? [Contactez-moi par mail](mailto:nicolasfriedli@protonmail.ch).  
-    Ce site est publié sous licence Creative Commons by.
   title: reforme.ch
   description: suite et fin des affaires courantes
   images:

@@ -73,7 +73,8 @@
      {{ end }}
     </main>
     <footer>
-        {{ .Site.Params.Footer | markdownify }}
+        Question ou remarque? <a href="mailto:nicolasfriedli@protonmail.ch">Contactez-moi par mail</a>.<br>  
+        Ce site est publié par {{ if .IsHome }}<a class="h-card" rel="me" href="https://reforme.ch/">Nicolas Friedli</a>{{ else }}Nicolas Friedli{{ end }} sous licence Creative Commons by.
     </footer>
 </body>
 </html>
