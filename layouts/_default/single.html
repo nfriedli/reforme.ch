@@ -1,9 +1,5 @@
 {{ define "main" }}
-<article class="h-entry">
-<h1 class="p-name">{{ .Title }}</h1>
-<div class="e-content">
+<h1>{{ .Title }}</h1>
 {{ .Content }}
-</div>
-&mdash; <time class="dt-published" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time> / Nicolas Friedli
-</article>
+&mdash; <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time> / Nicolas Friedli
 {{ end }}
