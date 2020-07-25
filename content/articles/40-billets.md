@@ -1,6 +1,6 @@
 --- 
 title: 80 jours pour 40 billets
-description: 
+description: Il est temps de sortir du temps des slogans et des complicités coupables.
 date: 2020-07-25
 ---
 
