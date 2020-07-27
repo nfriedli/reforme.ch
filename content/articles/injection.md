@@ -66,6 +66,8 @@ Je suis évidemment abonné à d'autres flux, comme ceux de:
 
 - [Diane Friedli](https://dianefriedli.ch/)  
 dont je connais en général les contenus à l'avance
+- [Journal d'un théologien vaudois éclectique] d'Elio Jaillet  
+un peu trop intelligent pour moi
 - [Je cherche Dieu](https://jecherchedieu.ch/) de Marc Pernot  
 qui vise une autre mécanique (questions-réponses)
 
