@@ -36,7 +36,7 @@ La présence réformée y est faible (presque partout), le développement person
 Pas grand chose à espérer là non plus.
 
 Du côté des universités, rien non plus.
-Peu de contenus en ligne, peut de *risques* de tomber par hasard sur un contenu protestant au détour d'une journée.
+Peu de contenus en ligne, peu de *risques* de tomber par hasard sur un contenu protestant au détour d'une journée.
 Au fond, le mécanisme est le même que celui des paroisses; se rendre à un colloque, à tel date et à tel endroit.
 Ou aller sur le site d'une faculté et prendre le temps d'essayer de trouver quelque chose de neuf et d'intéressant.
 
@@ -81,7 +81,7 @@ Celui de ce site: https://reforme.ch/index.xml
 ## Cette réponse n'en est pas une!
 
 Mon dispositif n'est pas une réponse adéquate.
-Il suppose une connaissance préalable du terrain et des efforts qui ne seront pas consenti par la majorité.
+Il suppose une connaissance préalable du terrain et des efforts qui ne seront pas consentis par la majorité.
 
 Puisque la réponse n'est pas la bonne, essayons les questions:
 
