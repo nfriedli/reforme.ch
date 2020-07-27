@@ -13,7 +13,7 @@ Mais assez pour écrire 40 billets de réflexion sur la fin de quelque chose.
 Ce sont les billets [50 Blog Posts in 2020](https://blog.jim-nielsen.com/2020/50-blog-posts-in-2020/) de Jim Nielsen et [100 Days of Writing](https://matthiasott.com/notes/100-days-of-writing) qui me poussent à essayer. Comme par hasard, ce sont des blogs qui proposent quelque chose (et qui le mettent en pratique). Impression d'un éternel recommencement.
 
 L'idée d'un rythme imposé sur un blog ne m'a jamais paru être une bonne idée.
-Toutefois, l'échéance de cet automone me motive à publier quelques notes.
+Toutefois, l'échéance de cet autonome me motive à publier quelques notes.
 Aucun plan de publication, aucun texte rédigé.
 
 
