@@ -19,20 +19,30 @@
     <link rel="me" href="https://reforme.ch/">
     {{ end }}
     {{ template "_internal/google_analytics.html" . }}
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"> 
     <style>
         html {
             background: #FFF;
             color: #333;
-            font-family: Poppins, 'Space Mono', sans-serif;
-            font-size: 112.5%;
+            font-family: Lora, Georgia, serif;
+            font-size: 100%;
             line-height: 1.5;
             margin: 0;
             padding: 0;
+            text-rendering: optimizeSpeed;
         }
 
         body {
             margin: 5%;
+        }
+
+        @media screen and (min-width: 50em) {
+            html {
+                font-size: 120%;
+            }
+            body {
+            margin: 5% 10%;
+            }
         }
 
         header {
@@ -46,11 +56,11 @@
 
         h1, h2, h3 {
             line-height: 1.2;
+            font-style: italic;
         }
 
         h1 {
             font-size: 2rem;
-            font-weight: normal;
         }
 
         h2 {
@@ -78,7 +88,7 @@
     </main>
     <footer>
         Question ou remarque? <a href="mailto:nicolasfriedli@protonmail.ch">Contactez-moi par mail</a>.<br>  
-        Ce site est publié par {{ if .IsHome }}<a class="h-card" rel="me" href="https://reforme.ch/">Nicolas Friedli</a>{{ else }}Nicolas Friedli{{ end }} sous licence Creative Commons by.
+        Ce site est publié  {{ if .IsHome }}par <a class="h-card" rel="me" href="https://reforme.ch/">Nicolas Friedli</a>{{ end }} sous licence Creative Commons by.
     </footer>
 </body>
 </html>
