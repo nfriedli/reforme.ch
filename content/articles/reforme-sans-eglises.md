@@ -13,7 +13,7 @@ Par exemple:
 - commenter 2 articles récents de Jean-Marc Tétaz qui ont été bien partagés sur les réseaux sociaux ([Chronique d'une mort annoncée](https://www.reformes.ch/blog/jean-marc-tetaz/2020/06/chronique-dune-mort-annoncee) et [Des réformes inévitables pour tenter d’éviter une mort annoncée](https://www.reformes.ch/blog/jean-marc-tetaz/2020/07/des-reformes-inevitables-pour-tenter-deviter-une-mort-annoncee)) et se demander s'il ne rate pas l'essentiel dans ses analyses
 - essayer de reformuler mes remarques sur [la question des pasteur.e.s selon Jérôme Cottin](https://www.letemps.ch/societe/jerome-cottin-on-assiste-aujourdhui-un-burnout-pastoral) dont on ne fait que me parler (et que j'ai probablement mal exprimées vu les résumés que l'on m'en fait)
 - formuler par écrit mes constatations sur les nombreuses visites de bâtiments religieux durant mes vacances en se posant cette question: *Le ringard tient-il lieu d'esthétique ecclésiale?*
-- dans la même veine, se demander pourquoi aucun lieu d'Église ne propose les portraits des ministres titulaires alors que Coop et Migros s'empressent d'afficher les bobines des responsables de magasins (*Pour vivre heureux, vivons cachés* )
+- dans la même veine, se demander pourquoi aucun lieu d'Église ne propose les portraits des ministres titulaires alors que Coop et Migros s'empressent d'afficher les bobines des responsables de magasins (*Pour vivre heureux, vivons cachés*)
 - proposer quelques photos architecturales intéressantes, notamment des bâtiments d'[Ellenberger](https://notrehistoire.ch/entries/04YzAa0JWqK)
 
 Plein d'autres idées encore, mais je ne me sens pas y consacrer du temps pour le moment. 
@@ -24,7 +24,7 @@ Expliquer pourquoi est le sujet de ce billet.
 Quelle que soit la visée des analystes, au final, la question est toujours celle de l'organisation, des structures, du système.
 C'est exactement ce que fait Jean-Marc Tétaz dans les articles mentionnés ci-dessus, avec justesse.
 
-J'ai pourtant l'impression que les principaux problèmes ecclésiaux ne sont pas organisationnel.
+J'ai pourtant l'impression que les principaux problèmes ecclésiaux ne sont pas organisationnels.
 Et n'ont pas même une origine organisationnelle. 
 Tout expliquer --- et tout excuser... --- par la passion bien réelle des institutions pour leurs organigrammes n'est pas une bonne piste.
 
@@ -40,7 +40,7 @@ Dans tout ce que je propose sur le web protestant depuis 15 ans, je vis une asym
 J'en ai conscience depuis des années, mais j'en suis usé.
 En résumé:
 
-- Les **propositions positives** sont généralement saluées; parfois comprises. Elles sont rapidement condamnées, malgré une bienveillance de façade, parce que jamais suivies de faits.
+- Les **propositions positives** sont généralement saluées; parfois comprises. Elles sont rapidement condamnées --- malgré une bienveillance de façade --- parce que jamais suivies de faits.
 - Les **critiques négatives** sont systématiquement montées en épingle. Chaque remarque sur les réseaux sociaux devient une affaire d'état, comme si ma voix avait une quelconque importance.
 
 Je conçois qu'une pique déplaise, personne n'aime se voir mettre en défaut.
@@ -65,4 +65,4 @@ La suite? **Proposer une découverte du protestantisme réformé qui évacue com
 Les fonctionnaires ecclésiaux estiment déjà que c'est impossible. 
 Laissez-moi essayer!
 Vous aurez tout le temps de m'accuser d'être déloyal par la suite.
-La routine.
+La routine...
