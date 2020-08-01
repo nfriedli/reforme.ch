@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ $current := . }}
+{{ with .Parent }}
+    <div class="tip">
+    Ces pages de la même rubrique pourraient aussi vous intéresser:
+    <ul>
+        {{ range sort .Pages ".File.Filename" }}
+        {{ if ne $current .}}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+    </div>
+{{ end }}
+
+{{ end }}
