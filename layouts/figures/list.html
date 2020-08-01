@@ -3,7 +3,7 @@
 {{ .Content }}
 
 
-    {{ range .RegularPages }}
+    {{ range sort .RegularPages "Filename" }}
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ .Summary }}
     {{ end }}
