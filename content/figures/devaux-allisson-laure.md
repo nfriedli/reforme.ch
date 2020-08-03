@@ -1,3 +1,0 @@
----
-title: Laure Devaux Allisson
----

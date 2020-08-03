@@ -3,6 +3,10 @@ languageCode: fr
 defaultContentLanguage: fr
 title: reforme.ch
 
+taxonomies:
+  tag: tags
+  cantons: cantons
+
 enableGitInfo: true
 
 RemovePathAccents: true
@@ -12,9 +16,6 @@ googleAnalytics: UA-162767126-4
 disableKinds:
   - robotsTXT
   - 404
-  - taxonomy
-  - term
-
 
 minify:
   minifyOutput: true
@@ -23,11 +24,28 @@ author:
   name: Nicolas Friedli
   email: nicolasfriedli@protonmail.ch
 
+markup:
+  highlight:
+    codeFences: true
+    style: dracula
+
 params:
-  title: reforme.ch
-  description:  à la découverte du protestantisme réformé
   footer: |
-    Licence: CC by-sa  
-    Contact: [Nicolas Friedli](mailto:nicolasfriedli@protonmail.ch "Contacter Nicolas Friedli par mail")  
+    [À propos de ce site](/about/)  
+    [Flux RSS](/feeds/)
+  title: reforme.ch
+  description: Le protestantisme réformé de Suisse romande en réseau
   images:
-    - https://cdn.pixabay.com/photo/2017/12/07/18/30/abandoned-building-3004317_1280.jpg
+    - https://cdn.pixabay.com/photo/2016/06/11/23/22/soap-bubbles-1451092_1280.jpg
+
+related:
+  threshold: 50
+  includeNewer: true
+  toLower: true
+  indices:
+  - name: tags
+    weight: 50
+  - name: cantons
+    weight: 60
+  - name: keywords
+    weight: 100

@@ -1,3 +1,0 @@
----
-title: Olivier Bauer
----

@@ -4,12 +4,18 @@
 
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ .Content }}
 
+{{ .Params.description }}
 
-    {{ range .Sections }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <p>{{ .Summary | markdownify }}</p>
+<div class="tags">
+        {{ range .Site.Taxonomies.tags }}
+                <div class="tag" rel="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+        {{ end }}
+
+    {{ range .Site.Taxonomies.cantons }}
+            <div class="tag" rel="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
     {{ end }}
+</div>
 
+{{ .Content }}
 {{ end }}

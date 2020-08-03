@@ -1,21 +1,43 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ .Content }}
 
-{{ $current := . }}
-{{ with .Parent }}
-    <div class="tip">
-    Ces pages de la même rubrique pourraient aussi vous intéresser:
-    <ul>
-        {{ range .Pages }}
-        {{ if ne $current .}}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+{{ .Params.description }}
+
+<div class="tags">
+    {{ range (.GetTerms "tags") }}
+        <div class="tag"><a href="{{ .Permalink }}" rel="tag">{{ .LinkTitle }}</a></div>
+   {{ end }}
+   {{ range (.GetTerms "cantons") }}
+   <div class="tag"><a href="{{ .Permalink }}" rel="tag">{{ .LinkTitle }}</a></div>
+{{ end }}
+</div>
+
+{{ if .Params.avis}}
+    <p>Avis d'internautes (envoyez le vôtre à nicolasfriedli@protonmail.ch):</p>
+    <div class="aviss">    
+        {{ range .Params.avis | shuffle }}
+        <div class="avis">
+            {{ . }}
+        </div>
         {{ end }}
-        {{ end }}
-    </ul>
     </div>
+{{ else }}
+    <p>Pas encore d'avis pour ce site. Le vôtre est bienvenu. Envoyez-le à nicolasfriedli@protonmail.ch.</p>
 {{ end }}
 
+<a class=url href="{{ .Params.Site }}" rel="noopener noreferrer" target="_blank">{{ .Params.Site }}</a>
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<p>Ces sites pourraient aussi vous intéresser:</p>
+<div class="sites">
+	{{ range . }}
+    <div class="site">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ .Params.description }} </div>
+	{{ end }}
+</div>
+{{ end }}
+
+{{ .Content }}
 {{ end }}

@@ -2,11 +2,13 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-
-    {{ range .RegularPages }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ .Summary }}
+<div class="sites">
+    {{ range .Pages }}
+        <div class="site">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ .Params.description }}
+        </div>
     {{ end }}
-
+    </div>
 
 {{ end }}

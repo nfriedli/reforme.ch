@@ -1,3 +1,0 @@
----
-title: Marion Muller Colard
----
