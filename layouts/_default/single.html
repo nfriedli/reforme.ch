@@ -1,21 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-
-{{ $current := . }}
-{{ with .Parent }}
-    <div class="tip">
-    Ces pages de la même rubrique pourraient aussi vous intéresser:
-    <ul>
-        {{ range .Pages }}
-        {{ if ne $current .}}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-        {{ end }}
-    </ul>
-    </div>
-{{ end }}
-
+&mdash; <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time> / Nicolas Friedli
 {{ end }}

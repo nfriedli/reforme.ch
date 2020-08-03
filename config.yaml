@@ -23,11 +23,13 @@ author:
   name: Nicolas Friedli
   email: nicolasfriedli@protonmail.ch
 
+markup:
+  highlight:
+    codeFences: true
+    style: dracula
+
 params:
   title: reforme.ch
-  description:  à la découverte du protestantisme réformé
-  footer: |
-    Licence: CC by-sa  
-    Contact: [Nicolas Friedli](mailto:nicolasfriedli@protonmail.ch "Contacter Nicolas Friedli par mail")  
+  description: suite et fin des affaires courantes
   images:
     - https://cdn.pixabay.com/photo/2017/12/07/18/30/abandoned-building-3004317_1280.jpg

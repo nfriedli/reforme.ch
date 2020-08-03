@@ -6,10 +6,9 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-
-    {{ range .Sections }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <p>{{ .Summary | markdownify }}</p>
+<ul>
+    {{ range first 5 .Site.RegularPages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
-
+</ul>
 {{ end }}
