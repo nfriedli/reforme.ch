@@ -2,13 +2,11 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-<ul>
+
     {{ range .RegularPages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-        </li>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ .Summary }}
     {{ end }}
-</ul>
+
 
 {{ end }}

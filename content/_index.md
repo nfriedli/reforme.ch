@@ -1,6 +1,6 @@
 ---
-title: reforme.ch
-description: Un blog pour observer les derniers soubresauts du protestantisme réformé en Suisse romande.
+title: À la découverte du protestantisme réformé
 ---
 
-Un blog pour observer les derniers soubresauts du protestantisme réformé en Suisse romande.
+Quelques pages pour essayer de rendre le protestantisme réformé accessibles à toutes et à tous.
+Une tentative de vulgariser sans volonté de récupération.
