@@ -32,6 +32,7 @@ markup:
 params:
   footer: |
     [À propos de ce site](/about/)  
+    
     [Flux RSS](/feeds/)
   title: reforme.ch
   description: Le protestantisme réformé de Suisse romande en réseau
