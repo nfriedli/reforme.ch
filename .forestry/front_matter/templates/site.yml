@@ -5,9 +5,13 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: site
   label: site
+  config:
+    required: true
 - type: text
   name: description
   label: description
