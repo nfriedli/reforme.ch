@@ -9,9 +9,11 @@ taxonomies:
 
 enableGitInfo: true
 
+canonifyURLs: true
+
 RemovePathAccents: true
 
-googleAnalytics: UA-162767126-4
+# googleAnalytics: UA-162767126-4
 
 disableKinds:
   - robotsTXT
