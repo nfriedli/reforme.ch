@@ -55,7 +55,7 @@ Je cherche à comprendre la structure du réseau protestant réformé de Suisse 
 
 - des thématiques (tags)
 - la géographie (cantons)
-- des mots-clés internes invisibles (keyowrds)
+- des mots-clés internes invisibles (keywords)
 
 Ces 3 taxonomies sont pondérées pour (essayer de) proposer des liens utiles vers d'autres sites. 
 Tout cela reste expérimental.
