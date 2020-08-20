@@ -5,7 +5,7 @@ title: reforme.ch
 
 taxonomies:
   tag: tags
-  cantons: cantons
+  canton: cantons
 
 enableGitInfo: true
 
