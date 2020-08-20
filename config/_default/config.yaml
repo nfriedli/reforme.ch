@@ -19,9 +19,6 @@ disableKinds:
   - robotsTXT
   - 404
 
-minify:
-  minifyOutput: true
-
 author:
   name: Nicolas Friedli
   email: nicolasfriedli@protonmail.ch
