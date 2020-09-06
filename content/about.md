@@ -10,11 +10,10 @@ Quelques informations pour comprendre le sens du projet reforme.ch, ses choix te
 
 ## À propos du Réseau protestant
 
-Je vous invite à soutenir le [Réseau protestant](https://reseau-protestant.ch/) sans réserve. 
-C'est le site le plus utile pour donner de la visibilité aux sites protestants réformés de Suisse romande.
-Pour être le plus efficace possible, il suffit de copier la liste (toujours à jour sur le site de référence) et de la copier sur vos propres sites.
+Je vous invite à visiter le site [Réseau protestant](https://reseau-protestant.ch/). 
+Il présente la meilleure liste de sites protestants réformés de Suisse romande.
 
-Le site reforme.ch n'est pas un concurrent du Réseau protestant, mais une expérience ponctuelle.
+Je vous invite à proposer régulièrement des liens vers les différents sites du Réseau protestant dans vos publications.
 
 ## Participer à reforme.ch
 
@@ -23,7 +22,7 @@ Il existe 2 manières d'apporter votre soutien à reforme.ch:
 - [ajouter un site](https://forms.gle/81etzY215AADgKuy7) (le vôtre ou un autre site)
 - donner votre avis sur un site en ligne par mail à l'auteur (voir ci-dessous)
 
-Votre soutien est important pour permettre à reforme.ch d'être le plus crédible possible.
+L'expérience actuelle s'arrêtera avant fin 2020...
 
 ## Contact
 
